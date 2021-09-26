@@ -1,0 +1,32 @@
+﻿body {
+    margin: 0;
+    border: 20px solid green;
+}
+
+form,  img {
+    border: 20px solid green;
+    background-color: white;
+    padding: 20px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+h1 {
+    color: #4a4a0a;
+}
+
+
+footer {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

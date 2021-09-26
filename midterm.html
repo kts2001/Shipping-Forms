@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<!--Created by Kareem Zahra - COMP 125 Student ID 301177518 -->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Billing Address</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <form class="info">
+        <hr />
+        <h1>Billing Address</h1>
+        <hr />
+        <label>
+            First Name
+            <input type="text" id="firstName" placeholder="Enter first name" required />
+        </label>
+        <label>
+            Last Name
+            <input type="text" id="lastName" placeholder="Enter last name" required />
+        </label>
+        <label>
+            Street Address
+            <input type="text" id="streetAddress" placeholder="Enter your address" required />
+        </label>
+        <label>
+            City
+            <input type="text" id="city" placeholder="Enter your city" required />
+        </label>
+        <label>
+            Province
+            <select name="province" id="province" required>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+            </select>
+        </label>
+        <label>
+            Postal Code
+            <input type="text" id="postalCode" placeholder="A1A 1A1" required />
+        </label>
+        <label>
+            Phone
+            <input type="number" id="phone" placeholder="000-000-0000" required />
+        </label>
+    <hr />
+        <h1>Shipping Address</h1>
+        <hr />
+        <label>
+            <input type="checkbox" id="checksame" class="checksame" />
+            Same as billing address
+        </label>
+        <label>
+            First Name
+            <input type="text" id="firstName2" placeholder="Enter first name" required />
+        </label>
+        <label>
+            Last Name
+            <input type="text" id="lastName2" placeholder="Enter last name" required />
+        </label>
+        <label>
+            Street Address
+            <input type="text" id="streetAddress2" placeholder="Enter your address" required />
+        </label>
+        <label>
+            City
+            <input type="text" id="city2" placeholder="Enter your city" required />
+        </label>
+        <label>
+            Province
+            <select name="province2" id="province2" required>
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+            </select>
+        </label>
+        <label>
+            Postal Code
+            <input type="text" id="postalCode2" placeholder="A1A 1A1" required />
+        </label>
+        <label>
+            Phone
+            <input type="number" id="phone2" placeholder="000-000-0000" required />
+        </label>
+        <input type="submit" />
+    </form>
+    <footer>
+        <p>Copyright &copy; Kareem Zahra - Student # 301177518</p>
+    </footer>
+    <script src="midterm.js"></script>
+</body>
+</html>
